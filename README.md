@@ -1,131 +1,126 @@
-💰 Money Converter Project 💱
+# 💰 Money Converter Project 💱
 
-🌟 What is it?
+## 🌟 What is it?
 
-A simple and elegant money converter website that allows users to convert between different currencies using real-time exchange rates. Built with HTML, CSS, and JavaScript.
+A simple and elegant money converter website that allows users to convert between different currencies using real-time exchange rates. Built with **HTML, CSS, and JavaScript**.
 
-✨ Key Features
+## ✨ Key Features
 
-🔄 Real-time Exchange Rates:
+### 🔄 Real-time Exchange Rates:
 
-Fetches the latest exchange rates from a public API.
+- Fetches the latest exchange rates from a public API.
 
-🌍 Currency Selection:
+### 🌍 Currency Selection:
 
-Users can select "From" and "To" currencies using dropdown menus.
+- Users can select "From" and "To" currencies using dropdown menus.
 
-🚩 Flag Icons:
+### 🚩 Flag Icons:
 
-Displays country flags for the selected currencies.
+- Displays country flags for the selected currencies.
 
-📱 Responsive Design:
+### 📱 Responsive Design:
 
-Works seamlessly on all devices (desktop, tablet, mobile).
+- Works seamlessly on all devices (desktop, tablet, mobile).
 
-🎨 Simple UI:
+### 🎨 Simple UI:
 
-Clean and user-friendly interface.
+- Clean and user-friendly interface.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-📜 HTML: Structure of the website.
+- **📜 HTML**: Structure of the website.
+- **🎨 CSS**: Styling and layout.
+- **⚡ JavaScript**: Fetching API data and handling conversions.
+- **🏴 Flag Icons**: `flag-icon-css` for displaying country flags.
+- **📈 Exchange Rates API**: ExchangeRate-API for real-time currency data.
 
-🎨 CSS: Styling and layout.
+## 🚀 How to Use
 
-⚡ JavaScript: Fetching API data and handling conversions.
+### 📥 Clone the Repository:
 
-🏴 Flag Icons: flag-icon-css for displaying country flags.
-
-📈 Exchange Rates API: ExchangeRate-API for real-time currency data.
-
-🚀 How to Use
-
-📥 Clone the Repository:
-
+```bash
 git clone https://github.com/KAIF-99-lg/money-converter.git
 cd money-converter
+```
 
-🌐 Open the Project:
+### 🌐 Open the Project:
 
-Open the index.html file in your browser.
+- Open the `index.html` file in your browser.
 
-🔢 Using the Converter:
+### 🔢 Using the Converter:
 
-Enter the amount you want to convert in the "Amount" field.
+1. Enter the amount you want to convert in the "Amount" field.
+2. Select the "From" and "To" currencies from the dropdown menus.
+3. Click the "Convert" button to see the converted amount.
+4. The corresponding country flags will update automatically.
 
-Select the "From" and "To" currencies from the dropdown menus.
+## 📂 Code Structure
 
-Click the "Convert" button to see the converted amount.
+- 📜 `index.html`: The main HTML file containing the structure of the website.
+- 🎨 `styles.css`: The CSS file for styling the website.
+- ⚡ `script.js`: The JavaScript file for fetching exchange rates and handling conversions.
 
-The corresponding country flags will update automatically.
+## 🌍 API Used
 
-📂 Code Structure
+This project uses the **ExchangeRate-API** to fetch real-time exchange rates.
 
-📜 index.html: The main HTML file containing the structure of the website.
+- The API is free to use, but you may need to sign up for an API key if you exceed the free tier limits.
 
-🎨 styles.css: The CSS file for styling the website.
+## 🎨 Customization
 
-⚡ script.js: The JavaScript file for fetching exchange rates and handling conversions.
+- **🔗 Change API**: Update the fetch URL in `script.js` to use a different API.
+- **💲 Add More Currencies**: Modify the API response handling in `script.js` to add or remove currencies.
+- **🎨 Update Styling**: Modify `styles.css` to change the look and feel of the website.
 
-🌍 API Used
+## 📸 Screenshots
 
-This project uses the ExchangeRate-API to fetch real-time exchange rates.
+- 🖥️ **Desktop View**:&#x20;
 
-The API is free to use, but you may need to sign up for an API key if you exceed the free tier limits.
+- ![Uploading Screenshot 2025-02-09 235705.png…]()
+  
+-  📱 **Mobile View**:&#x20;
+    
+![IMG_1770](https://github.com/user-attachments/assets/642fde42-6cff-4d55-b673-6dbbfea71e66)
 
-🎨 Customization
 
-🔗 Change API: Update the fetch URL in script.js to use a different API.
+## 📜 License
 
-💲 Add More Currencies: Modify the API response handling in script.js to add or remove currencies.
+This project is licensed under the **MIT License**. See the LICENSE file for details.
 
-🎨 Update Styling: Modify styles.css to change the look and feel of the website.
-
-📸 Screenshots
-
-![Screenshot 2025-02-09 235705](https://github.com/user-attachments/assets/a5635690-192c-4d52-80d8-7cbcd26ec985)
-
-🖥️ Desktop View:
-
-![IMG_1770](https://github.com/user-attachments/assets/84630ae1-7991-4db6-b55d-73eb8add9902)
-
-📱 Mobile View:
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.
 
-🔧 Steps to Contribute:
+### 🔧 Steps to Contribute:
 
-🍴 Fork the project.
+1. 🍴 Fork the project.
+2. 🔀 Create a new branch:
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. 💾 Commit your changes:
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. 🚀 Push to the branch:
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. 🔥 Open a pull request.
 
-🔀 Create a new branch:
+## 🙌 Acknowledgments
 
-git checkout -b feature/AmazingFeature
+- **📈 ExchangeRate-API** for providing the exchange rate data.
+- **🏴 flag-icon-css** for the country flag icons.
 
-💾 Commit your changes:
+## 👤 Author
 
-git commit -m 'Add some AmazingFeature'
+👤 **Your Name**
 
-🚀 Push to the branch:
+- **🐙 GitHub**: [KAIF-99-lg](https://github.com/KAIF-99-lg)
+- **📧 Email**: [kaif271103@icloud.com](mailto\:kaif271103@icloud.com)
 
-git push origin feature/AmazingFeature
-
-🔥 Open a pull request.
-
-🙌 Acknowledgments
-
-📈 ExchangeRate-API for providing the exchange rate data.
-
-🏴 flag-icon-css for the country flag icons.
-
-👤 Author
-
-👤 Your Name
-
-🐙 GitHub: KAIF-99-lg
-
-📧 Email: kaif271103@icloud.com
+---
 
 💸 Enjoy converting currencies! 🚀
 
