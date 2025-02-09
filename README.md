@@ -76,8 +76,8 @@ This project uses the **ExchangeRate-API** to fetch real-time exchange rates.
 
 - 🖥️ **Desktop View**:&#x20;
 
-- ![Uploading Screenshot 2025-02-09 235705.png…]()
-  
+  ![Screenshot 2025-02-09 235705](https://github.com/user-attachments/assets/09d08fd5-281d-4178-ac92-0fff136edece)
+
 -  📱 **Mobile View**:&#x20;
     
 ![IMG_1770](https://github.com/user-attachments/assets/642fde42-6cff-4d55-b673-6dbbfea71e66)
