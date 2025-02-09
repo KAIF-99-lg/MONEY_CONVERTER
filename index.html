@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>💸 Money Converter</h1>
+        <div class="converter">
+            <div class="input-group">
+                <input type="number" id="amount" placeholder="Enter amount" value="1">
+                <div class="currency-selector">
+                    <select id="fromCurrency"></select>
+                    <span id="fromFlag" class="flag-icon"></span>
+                </div>
+            </div>
+            <div class="input-group">
+                <input type="number" id="convertedAmount" placeholder="Converted amount" readonly>
+                <div class="currency-selector">
+                    <select id="toCurrency"></select>
+                    <span id="toFlag" class="flag-icon"></span>
+                </div>
+            </div>
+            <button id="convertBtn">Convert</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
