@@ -115,7 +115,7 @@ Contributions are welcome! If you find any issues or want to add new features, f
 
 ## 👤 Author
 
-👤 **Your Name**
+👤 **MUHAMMAD KAIF**
 
 - **🐙 GitHub**: [KAIF-99-lg](https://github.com/KAIF-99-lg)
 - **📧 Email**: [kaif271103@icloud.com](mailto\:kaif271103@icloud.com)
